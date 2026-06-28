@@ -8,8 +8,7 @@ O objetivo desta atividade foi desenvolver uma página web utilizando **HTML**, 
 
 # 📷 Prévia do Projeto
 
-
-![Preview](img/preview.png)
+![Preview](img/preview.jpg)
 
 ---
 
