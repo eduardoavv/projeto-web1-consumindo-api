@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNA MOTORS PALMARES</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Una Motors Palmares</h1>
+    <p>Sua concessionária de motos</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Modelos</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+
+    <section class="destaque">
+      <h2>Moto em Destaque</h2>
+      <img src="img/destaque-img1.jpg" alt="Moto destaque">
+      <p>Alta performance, design moderno e conforto para o dia a dia.</p>
+    </section>
+
+    <section class="modelos">
+      <h2>Modelos</h2>
+
+      <article class="card">
+        <img src="img/sport-img1.jpg" alt="Moto Sport 300">
+        <h3>Sport 300</h3>
+        <p>Ideal para quem busca velocidade e estilo.</p>
+      </article>
+
+      <article class="card">
+        <img src="img/city-img1.jpg" alt="Moto City">
+        <h3>City 150</h3>
+        <p>Perfeita para uso urbano e economia.</p>
+      </article>
+
+      <article class="card">
+        <img src="img/trail-img1.jpg" alt="Moto Trail">
+        <h3>Trail 400</h3>
+        <p>Feita para aventuras em qualquer terreno.</p>
+      </article>
+    </section>
+
+    <section class="clientes bg-white p-4 rounded-lg shadow-md">
+    <h2 class="text-2xl font-bold text-red-600 mb-4">
+        Clientes Cadastrados
+    </h2>
+
+    <div
+        id="lista-clientes"
+        class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    </div>
+</section>
+
+    <aside class="sidebar">
+      <h2>Promoções</h2>
+      <p>Financiamento facilitado em até 48x!</p>
+      <p>Revisão grátis na compra de motos novas.</p>
+    </aside>
+
+  </main>
+
+  <footer>
+    <p>© 2026 - Una Motors</p>
+  </footer>
+
+  <script src="clientes.js"></script>
+
+</body>
+</html>
